@@ -55,6 +55,16 @@ plan:
             path: contracts/audit-scheduling.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: certification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/certification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: consumer-verification
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/consumer-verification.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: standards-compliance
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/standards-compliance.clar
