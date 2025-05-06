@@ -10,6 +10,11 @@ path = 'contracts/audit-scheduling.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.certification]
+path = 'contracts/certification.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.standards-compliance]
 path = 'contracts/standards-compliance.clar'
 clarity_version = 2
